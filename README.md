@@ -15,7 +15,7 @@ echo 'y' | sfdx plugins:install sfdx-mohanc-plugins@0.0.353
 
 
 ```bash
-sfdx kalam:git:diff -p <your-git-folder> -f HEAD~2 -t HEAD
+sfdx kalam:git:diff -p <your-git-folder> -f HEAD~2 -t HEAD > delta.txt
 
 ```
 
