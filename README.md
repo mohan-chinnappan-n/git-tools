@@ -4,7 +4,7 @@
 
 ```bash
 
-echo 'y' | sfdx plugins:install sfdx-mohanc-plugins@0.0.353
+echo 'y' | sfdx plugins:install sfdx-mohanc-plugins@0.0.354
 
 ```
 
