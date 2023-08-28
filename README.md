@@ -21,14 +21,16 @@ sfdx kalam:git:diff -p <your-git-folder> -f HEAD~2 -t HEAD
 
 ### Example output
 ```
-       Inserted Files: [
+Inserted Files: [
   "messages/mdapi.helper.list.json",
   "messages/mdapi.helper.rc.json",
   "messages/mdapi.helper.rc2.json",
   "messages/mdapi.helper.retrieve.json",
 ]
+
 Modified Files: [
   "package.json"
 ]
+
 Deleted Files: []
 ```
