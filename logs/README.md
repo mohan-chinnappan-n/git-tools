@@ -4,7 +4,7 @@
 
 ## Usage
 ```
-    Usage: bash kalam-gitlogs.sh [OPTIONS]
+Usage: bash kalam-gitlogs.sh [OPTIONS]
 
   -g, --gitFolder  Path to the Git repository folder
   -d, --fromDate   Filter commits from the specified date (YYYY-MM-DD)
