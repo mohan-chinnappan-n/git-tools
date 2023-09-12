@@ -32,7 +32,6 @@ get_git_commit_logs() {
   git --git-dir="$git_folder/.git" log --pretty=format:"%h,%ad,%an,%s" --date=iso --since="$from_date"
 }
 
-
 # Define function to copy CSV content to clipboard based on OS type
 copy_to_clipboard() {
   if [[ "$OSTYPE" == "darwin"* ]]; then
@@ -41,6 +40,9 @@ copy_to_clipboard() {
   elif [[ "$OSTYPE" == "linux-gnu"* ]]; then
     # Linux
     cat "$1" | xclip -selection clipboard
+  elif [[ "$OSTYPE" == "msys" || "$OSTYPE" == "cygwin" ]]; then
+    # Windows (Cygwin/MSYS)
+    cat "$1" | clip
   else
     echo "Unsupported operating system: $OSTYPE"
     exit 1
@@ -55,6 +57,9 @@ open_url() {
   elif [[ "$OSTYPE" == "linux-gnu"* ]]; then
     # Linux
     xdg-open "$1"
+  elif [[ "$OSTYPE" == "msys" || "$OSTYPE" == "cygwin" ]]; then
+    # Windows (Cygwin/MSYS)
+    start "$1"
   else
     echo "Unsupported operating system: $OSTYPE"
     exit 1
