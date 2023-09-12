@@ -6,6 +6,8 @@
 
 ---
 
+## Usage
+
 ```
  Usage: kalam-largefiles.sh [OPTIONS]
   -f, --folder       Path to the folder where you want to search for large files
