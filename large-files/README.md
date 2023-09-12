@@ -1,8 +1,8 @@
-# kalam-largfiles.sh
+# kalam-largefiles.sh
 
 - Provides a csv view of large files in your OS for given folder and its sub-folders and load into the datatlable viewer
 
-- [Download tool](./kalam-largfiles.sh)
+- [Download tool](./kalam-largefiles.sh)
 
 ---
 
