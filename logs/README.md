@@ -2,7 +2,7 @@
 
 - Provides a csv view of git logs in a git folder and loads that csv to datatlable viewer
 
-- [Download tool](./ kalam-gitlogs.sh)
+[Download tool](./kalam-gitlogs.sh)
 
 ## Usage
 ```
