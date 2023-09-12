@@ -16,9 +16,10 @@
   -h, --help         Display this help message
 ```
 ---
+## Usage: example:
 ```
- Usage: example:
  bash kalam-largefiles.sh -f ~/treeprj -s 1000000 -o /tmp/file-size.csv  
+
 ```
 
 
